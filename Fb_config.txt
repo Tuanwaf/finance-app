@@ -1,0 +1,19 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyApg5Qopik6H44qMCTp7Id4sou4r5xzdT0",
+    authDomain: "finance-app-33f0d.firebaseapp.com",
+    projectId: "finance-app-33f0d",
+    storageBucket: "finance-app-33f0d.firebasestorage.app",
+    messagingSenderId: "693771017354",
+    appId: "1:693771017354:web:0f782acddc17363b2ce173"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
